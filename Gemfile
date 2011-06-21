@@ -9,6 +9,7 @@ gem 'pony', '~> 1.1'  # unusual version number
 gem 'graylog2-declarative_authorization', :require => 'declarative_authorization'
 gem 'mongoid', '~> 2.0.1'
 gem 'bson_ext', "~> 1.3.0"
+gem 'will_paginate', '~> 2.3.15'
 
 # TODO https://github.com/ph7/system-timer/issues/15
 if RUBY_VERSION.start_with?('1.8')
